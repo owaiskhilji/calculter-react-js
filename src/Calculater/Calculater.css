@@ -1,0 +1,123 @@
+.div {
+  background-color: rgb(15, 3, 49);
+  width: 1200px;
+  height: 550px;
+  padding-top: 10%;
+  box-sizing: border-box;
+}
+.div-container {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 20%;
+  height: 68%;
+  border-radius: 20px;
+  padding-left: 4px;
+}
+.dis-div {
+  color: white;
+  height: 40px;
+  border: 2px solid white;
+  width: 100%;
+  padding-left: 5px;
+  padding-top: 4px;
+  font-size: large;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 4px;
+}
+.btn-AC {
+  width: 100px;
+}
+.btn-DEl {
+  width: 100px;
+  margin-right: 10px;
+}
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 0;
+  font-size: 18px;
+  text-align: center;
+}
+.row-space {
+  margin-bottom: 4px;
+  /* margin-left: px; */
+}
+.space {
+  margin-bottom: 20px;
+}
+
+/* 
+@media screen and (max-width: 768px) {
+  .div-container {
+    width: 80% !important;
+    height: 50% !important;
+  }
+} */
+/* 
+@media screen and (max-width: 576px) {
+  .div-container {
+    width: 560px !important;
+    height: 40% !important;
+  }
+} */
+
+@media screen and (max-width: 375px) {
+  .div {
+    background-color: rgb(15, 3, 49);
+    width: 1200px;
+    height: 1000px;
+    padding-top: 10%;
+    box-sizing: border-box;
+  }
+  .div-container {
+    width: 360px !important;
+    height: 446px !important;
+    margin-top: 200px;
+  }
+
+  .dis-div {
+    color: white;
+    height: 80px;
+    border: 2px solid white;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: xx-large;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 4px;
+  }
+
+  .btn-AC {
+    width: 150px;
+    margin-left: 6px;
+    margin-top: 5px;
+    font-size: x-large;
+    margin-bottom: 6px;
+  }
+  .btn-DEl {
+    width: 160px;
+    margin-right: 50px;
+    margin-top: 5px;
+    font-size: x-large;
+    margin-bottom: 6px;
+  }
+
+  .btn-circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    padding: 0;
+    font-size: xx-large;
+    text-align: center;
+  }
+  .row-space {
+    margin-bottom: 6px;
+    margin-left: 1px;
+  }
+  .space {
+    /* margin-bottom: 50px; */
+  }
+}
